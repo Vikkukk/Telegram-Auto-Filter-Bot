@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @SLBotsOfficial
+# (c) @victorlctt
 
 import os
 import logging
@@ -11,17 +11,17 @@ from logging.handlers import RotatingFileHandler
 from .translation import Translation
 
 # Change Accordingly While Deploying To A VPS
-APP_ID = int(os.environ.get("APP_ID"))
+APP_ID = int(os.environ.get("16869866"))
 
-API_HASH = os.environ.get("API_HASH")
+API_HASH = os.environ.get("b6defd08178346ef6d0539e4db127acf")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("5735937868:AAG6rfVcLc-OEJV_kzaNIJY1XTtbGlTnWcs")
 
-DB_URI = os.environ.get("DB_URI")
+DB_URI = os.environ.get("mongodb+srv://Vikkukk:Lami@123#@cluster0.jpd0xtm.mongodb.net/?retryWrites=true&w=majority")
 
-USER_SESSION = os.environ.get("USER_SESSION")
+USER_SESSION = os.environ.get("1889791911")
 
-BUTTON = os.environ.get("BUTTON", "Channel - https://t.me/SLBotsOfficial")  # Button - link
+BUTTON = os.environ.get("BUTTON", "Channel - https://t.me/allbots4uall")  # Button - link
 
 VERIFY = {}
 
