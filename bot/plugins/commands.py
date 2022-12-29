@@ -40,10 +40,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/SLBotsOfficial'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/TR-TECH-GUIDE/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/victorlctt'),
+        InlineKeyboardButton('Source Code 🧾', url ='@victorlctt')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/trtechguide')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/victorlamichhanebotdiscussion')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
